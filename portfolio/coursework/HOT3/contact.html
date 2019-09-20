@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+	<title>Form Example</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style4.css">
+	<link href="css/style4.css"
+			media="only screen and (min-width: 768px) and (max-width: 1024px)">
+	<div id="top">
+</head>
+<div class="wrapper">
+<header>
+		<div class="header"><h1>PORTFOLIO</h1></div>
+</header>
+<nav>
+<div class="nav">
+        <br>
+        <a href="index.html">HOME</a> &nbsp;
+        <a href="resume.html">RESUME</a> &nbsp;
+        <a href="freelance.html">FREELANCE</a> &nbsp;
+        <a href="profile.html">PROFILE</a> &nbsp;
+        <a href="contact.html">CONTACT</a> &nbsp;
+</div>
+</nav>
+<body>
+		<main>
+			<h3>Contact Us</h3>
+			<p>Please use this form to contact Ranken Technical College
+			
+			<form method="post" action="#">
+				<fieldset>
+				<legend>Personal Information</legend>
+					<p>
+						<label for="fName">First Name: </label>
+						<input type="text"
+							name="fName"
+							id="fName">
+					</p>
+					<p>
+						<label for="lName">Last Name: </label>
+						<input type="text"
+							name="lName"
+							id="lname">
+					</p>
+					<p>
+						<label for="address">Address: </label>
+						<input type="text"
+							name="address"
+							id="address">
+					</p>
+					<p>
+						<label for="city">City: </label>
+						<input type="text"
+							name="city"
+							id="city">
+					</p>
+					<p>
+						<label for="state">State: </label>
+						<select>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO" selected>Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+						</select>				
+					</p>
+					<p>
+						<label for="zip">Zip Code: </label>
+						<input type="text"
+							name="zip"
+							id="zip"
+							pattern="(\d{5}([\-]\d{4})?)">
+					</p>
+					<p>
+						<label for="email">Email: </label>
+						<input type="email"
+							name="email"
+							id="email"
+							pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+					</p>
+					<p>
+						<label for="url">Url: </label>
+						<input type="url"
+							name="url"
+							id="url">
+					</p>
+					<p>
+						<label for="color">Favorite Color: </label>
+						<input type="color"
+							name="color"
+							id="color">
+					</p>
+					<p>
+						<label for="dob">Date Of Birth: </label>
+						<input type="date"
+							name="dob"
+							id="dob">
+					</p>
+				</fieldset>
+
+				<p>
+						<label for="call">Best Time to Call: </label>
+						<input type="radio"
+							name="time"
+							id="morning"
+							checked>Morning
+						<input type="radio"
+							name="time"
+							id="afternoon">Afternoon
+						<input type="radio"
+							name="time"
+							id="evening">Evening
+					</p>
+					<p>
+						<label for="budget">Monthly Income: </label>
+						<select type="list" name="budget">
+							<option>--Please Select--</option>
+							<option value="0">0</option>
+							<option value="500-1000">$500-$1000</option>
+							<option value="1000-2000">$1000-$2000</option>
+							<option value="2000+">$2000+</option>
+							<option value="Rather Not Answer">Rather Not Answer</option>
+						</select>
+					</p>
+					<p>
+						Favorite Class At Ranken Technical College
+					</p>
+					<table id="services">
+						<tr>
+							<td><input
+								type="checkbox"
+								name="class"
+								value="Web Technologies">
+								Web Technologies
+							</td>
+							<td><input
+								type="checkbox"
+								name="class"
+								value="Oral Communications">
+								Oral Communications
+							</td>
+							<td><input
+								type="checkbox"
+								name="class"
+								value="C# Programming">
+								C# Programming
+							</td>
+							<td><input
+								type="checkbox"
+								name="class"
+								value="Written Communication">
+								Written Communication
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input
+										type="checkbox"
+										name="class"
+										Value="ASP.NET">
+										ASP.NET
+							</td>
+							<td>
+									<input
+											type="checkbox"
+											name="class"
+											Value="Business Organization">
+											Business Organization
+							</td>
+							<td>
+									<input
+											type="checkbox"
+											name="class"
+											Value="Java Programming">
+											Java Programming
+							</td>
+							<td>
+									<input
+											type="checkbox"
+											name="class"
+											Value="Intro to Psychology">
+											Into to Psychology
+							</td>
+						</tr>
+					</table>
+					<p>
+                        <input type="Submit">
+                        <input type="reset">
+					</p>
+			</form>
+		</main>
+</body>
+<br><br>
+<footer>
+        <div class="footer">
+            <br>Christopher Hardy's Portfolio
+            <br><a href="http://www.ranken.edu" target="_blank">Ranken Technical College</a>
+            <br><a href="sms:(314)136-7654">(314)136-7654</a><div class="copyright"><small><i>Copyright &copy; 2017 Chris Hardy</i></small></div><br>
+            </div>
+			</div>
+			<a href="#top">Go to Top</a>
+    </footer>
+</html>

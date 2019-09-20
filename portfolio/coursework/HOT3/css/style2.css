@@ -1,0 +1,95 @@
+.wrapper
+{
+    
+    display: inline-block;
+   
+    width: 100%;
+
+    list-style-type: none;
+
+    text-align: center;
+   
+}
+
+.header
+{
+    background: red;
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    line-height: 0px;
+    font-size: 40px;
+    padding: 15px;
+    
+}
+
+.nav
+{
+    background: grey;
+    color: grey;
+    padding: 5px;
+    width: 100%;
+    word-spacing: 65px;
+}
+
+.c1
+{
+    float: left;
+    background: black;
+    color: white;
+    height: 300px;
+    width: 10.02%;
+    margin-right: 2px;   
+}
+
+.main
+{
+    display: inline-block;
+    background: black;
+    color: white;
+    height: 300px;
+    width: 79.8%;
+    margin: 0 auto;
+}
+
+.c3
+{
+    float: right;    
+    background: black;
+    color: white;
+    height: 300px;
+    width: 10%;
+}
+
+.footer
+{
+    clear: both;
+    background: red;
+
+    width: 100%;
+    text-align: left;
+}
+
+html
+{
+    text-align: center;
+    width: 100%;
+}
+
+.details
+{
+    text-align: right;
+}
+
+
+
+.copyright
+{
+    text-align: right;
+}
+
+a
+{
+    background: ;
+    padding: 10px;
+}

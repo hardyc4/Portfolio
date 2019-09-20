@@ -1,0 +1,301 @@
+body
+{
+  font-family: A, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: red;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.center {text-align: center;}
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+/* NAV Stuff ------------------------------------------------------- */
+nav
+{
+  width: 100%;
+  background: red;
+}
+
+.navbut:link,
+.navbut:default,
+.navbut:visited
+{
+    color: black;
+    background: red;
+}
+
+.navbut:focus,
+.navbut:hover
+{
+  background: black;
+  color: red;
+}
+
+.navbut
+{
+  background: red;
+  color: black;
+  border-color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbut1
+{
+  background: black;
+  color: red;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* HOME Stuff -------------------------------------------- */
+.me
+{
+    height: 20%;
+    width: 20%;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.main
+{
+  background: url('../images/coding.jpg');
+  height: 100%;
+  padding-bottom: 40px;
+}
+.mainhome
+{
+  margin-left: 200px;
+  text-align: left;
+  margin-bottom: 200px;
+  padding-bottom: 350px;
+}
+main h1
+{
+  margin-top: 250px;
+  margin-left: 45px;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+main p
+{
+  margin-left: 50px;
+  color: rgb(255, 46, 46);
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+/* ABOUT Stuff ---------------------------------------- */
+.about
+{
+  background: url('../images/coding2.jpg');
+}
+.resbut
+{
+  margin-top: 10px;
+  margin-right: 10px;
+  border-color: red;
+}
+
+.about table
+{
+  margin-left: 10%;
+}
+.resume
+{
+  margin-left: 26px;
+}
+/* CONTACT Stuff --------------------------------------- */
+.contact
+{
+  background: url('../images/coding5.jpg');
+  margin-top: -50px;
+}
+
+.contact aside strong
+{
+  margin-top: -120px;
+  margin-right: 220px;
+}
+.form
+{
+  margin-left: -6%;
+
+}
+
+.conaside
+{
+  margin-top: 20px;
+  margin-right: 6%;
+}
+.conaside h1
+{
+  border-bottom: solid 1px red;
+}
+.conaside p
+{
+  line-height: 150%; 
+}
+
+.sendbut
+{
+  width: 95%;
+  margin-top: -2%;
+  margin-bottom: 50px;
+  background: red;
+}
+
+
+/* FOOTER Stuff --------------------------------------- */
+footer
+{
+  text-align: right;
+  font-size: 75%;
+  width: 100%;
+  height: 110px;
+  background: red;
+  color: black;
+  clear: both;
+}
+
+.footcon
+{
+  margin-right: 20px;
+}
+.footbut
+{
+  background: black;
+  color: red;
+}
+
+.footbut:hover
+{
+  background: red;
+  color: black;
+  border-color: black;
+}
+
+/* Media Quieres ======================================== */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 350px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: -130px;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  table {margin-top: 100px;}
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 350px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: -65%;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and ( min-width: 400px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: -30%;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and ( min-width: 500px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: -10%;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 630px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: 5%;}
+  .mainhome h1 {margin-top: 95%; margin-left: -65%;}
+  .mainhome p {width: 130%; margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 700px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -30px;}
+  .me {width: 200px; float: left; margin-left: -20%;}
+  .mainhome h1 {margin-top: 40%; margin-left: -5%;}
+  .mainhome p {width: 75%; margin-top: -25%; margin-left: 20%; text-align: left;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 800px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -10px;}
+  .me {width: 200px; float: left; margin-left: -15%;}
+  .mainhome h1 {margin-top: 35%; margin-left: -4%;}
+  .mainhome p {width: 70%; margin-top: -20%; margin-left: 20%;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 900px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -10px;}
+  .me {width: 200px; float: left; margin-left: -10%;}
+  .mainhome h1 {margin-top: 30%; margin-left: -0%;}
+  .mainhome p {margin-top: -18%; margin-left: 23%; margin-right: 15px;}
+  
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 500px;}
+  .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
+}
+@media only screen and (min-width: 1000px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -5%;}
+  .me {height: 20%; width: 20%; margin-left: 5%; margin-top: 200px;}
+  .mainhome h1 {margin-top: 20%; margin-left: 1%;}
+  .mainhome p {width: 50%; margin-top: -12%; margin-left: 30%; margin-right: 15px;}
+  table {margin-top: 5%;}
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 20%;}
+  .contact aside h1 {float: right; margin-top: 20%; margin-right: 13%;}
+  .contact aside p {float: right; margin-top: 0%; margin-right: -12%;}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- HTML CSS -->
+    <link rel="stylesheet" href="css/bmi.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Outside Sources -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <title>HOT 3 - bmi</title>
+  </head>
+
+  <body>
+    <nav class="navbar navback navbar-expand-md fixed-top">
+        <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="home.html"><button type="button" class="btn btn-outline navbut">Home</button></a>
+                </li>
+                <li>
+                    <a href="about.html"><button type="button" class="btn btn-outline navbut">About</button></a>
+                </li>
+                <li>
+                    <a href="questions.html"><button type="button" class="btn btn-outline navbut">Questions</button></a>
+                </li>
+                <li>
+                    <a href="bmi.html"><button type="button" class="btn btn-outline navbut1">BMI</button></a>
+                </li>
+                <li>
+                    <a href="contact.html"><button type="button" class="btn btn-outline navbut">Contact</button></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <form name="bmiForm">
+            <h1><br><br>BMI Calculator</h1>
+
+            Your Weight(lb): <input type="text" name="weight" id="weight"><span onClick="setTimeout(function(){$('.messages.status').fadeOut();}, 8000);" class="spaces">*</span><br><br>
+            Your Height(in): <input type="text" name="height" id="height"><span onClick="setTimeout(function(){$('.messages.status').fadeOut();}, 8000);" class="spaces">*</span><br><br>
+
+            <input type="button" value="Calculate my BMI" onclick="processEntries();">
+            <input type="reset" value="RESET" onclick="clear();"><br>
+
+            Your BMI: <input type="text" name="bmi"><span onClick="setTimeout(function(){$('.messages.status').fadeOut();}, 8000);" class="spaces"></span><br><br>
+            This Means: <input type="text" name="meaning"><span onClick="setTimeout(function(){$('.messages.status').fadeOut();}, 8000);" class="spaces"></span>
+    </main>
+
+    <footer class="footer clear">
+        <p><em><br>Portfolio - &copy; 2018 by CHRISTOPHER HARDY</em></p>
+        <i class="fab fa-facebook-square" style="font-size: 230%;"></i>
+        <i class="fab fa-twitter" style="font-size: 230%;"></i>
+        <i class="fab fa-instagram" style="font-size: 230%;"></i>
+        <i class="fab fa-google" style="font-size: 230%;"></i></p>
+    </footer> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/bmi.js"></script>
+  
+  </body>
+</html>

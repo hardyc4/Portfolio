@@ -1,0 +1,344 @@
+/* Reference----------------
+#008000;
+white
+../images/pawprints2.png
+------------------------------- */
+/*	Global body stuff-----------------------------------------------------	*/
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: #008000;
+  color: white;
+}
+
+/* NAV stuff --------------------------------- */
+nav
+{
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navback
+{
+  background: white;
+  color: #008000;
+}
+
+nav button:link,
+nav button:default,
+nav button:visited
+{
+  background: #008000;
+}
+
+nav button:focus,
+nav button:hover
+{
+  background: #008000;
+  color: white;
+}
+
+.navbut
+{
+  background: #008000;
+  color: white;
+  margin: 5px;
+  float: right;
+}
+
+.navimg
+{
+  width: 200px;
+  height: 100px;
+}
+
+a
+{
+  text-decoration: none;
+}
+/*  Home Stuff -------------------------------------------------------------- */
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.jumbo
+{
+  margin-top: 250px;
+  background: white;
+  color: #008000;
+}
+
+.jumbotext
+{
+  font-size: 400%;
+  text-align: center;
+}
+
+.imageslider
+{
+  width: 50%;
+  height: 610px;
+  margin: 0 auto;
+}
+
+.ptext
+{
+  width: 90%;
+  padding: 3%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 150%;
+}
+
+.sign
+{
+  padding-right: 15%;
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+/*	Services page stuff -------------------------------------------------------	*/
+.services1
+{
+  width: 90%;
+  margin: 3%;
+  margin-top: 6%;
+  clear: both;
+  font-size: 150%;
+}
+
+.services1 h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Abril Fatface', cursive;
+}
+/*	Testimonials page stuff -----------------------------------------------------	*/
+.testimonials1
+{
+  font-family: 'Lobster', cursive;
+  clear: both;
+  width: 90%;
+  font-size: 150%;
+}
+
+dl
+{
+  clear: both;
+}
+
+.dd1
+{
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  width: 25%;
+}
+
+.dd2
+{
+  text-align: center;
+  color: white;
+  font-size: 85%;
+  width: 70%;
+  font-weight: bold;
+  margin-left: 35%;
+}
+
+.testimg
+{
+  transform:rotate(270deg);
+  margin: 3%;
+  margin-left: 5%;
+  width: 340px;
+  height: 300px;
+}
+
+.testimg1
+{
+  transform:rotate(90deg);
+  margin: 3%;
+  width: 340px;
+  height: 300px;
+}
+
+.video
+{
+  width: 50%;
+  height: 450px;
+  margin-left: 30%;
+}
+
+.audio
+{
+  width: 100%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+tbody tr:nth-child(odd)
+{
+  background: green;
+}
+/*	Contact form page stuff --------------------------------------------------------------	*/
+label
+{
+    display: inline-block;
+    text-align: right;
+    width: 15em;
+	font-size: 2em;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="tel"]
+{
+	width: 25em;
+	line-height: 2em;
+	font-size: 1.5em;
+} */
+
+.contact1
+{
+  width: 85%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.done
+{
+  float: right;
+  margin-bottom: 25px;
+  color: #008000;
+  background: white;
+}
+/*	Footer Section stuff --------------------------------------------------	*/
+footer
+{
+  text-align: center;
+  font-size: 75%;
+  width: 100%;
+  height: 110px;
+  background: white;
+  color: #008000;
+  clear: both;
+}
+
+footer a
+{
+  color: #008000;
+}
+footer i
+{
+  padding: 5px;
+}
+/* MEDIA QURRIES --------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+  nav img {width: 30%; float: left;}
+  .jumbo {width: 100%; height: auto; margin-top: 100px;}
+  .jumbotext {font-size: 250%;}
+  .carousel {width: 100%;}
+  .imageslider {height: 250px;}
+  .ptext {width: 90%; font-size: 100%;}
+  .sign {float: right; clear: both; font-size: 100%; padding-right: 20%;}
+  .services1 h2 strong {font-size: 30px;}
+  .services1 {width: 90%; font-size: 100%; margin-top: 25%;}
+  .testimonials1 {width: 80%;}
+  .video {margin-left: 20%; width: 85%; height: 200px;}
+  .audio {margin-left: 13%;}
+  .testimg, .testimg1 {height: 100%; width: 100%; margin-left: 10%;}
+  .contact1 {margin-top: 22%; margin-bottom: 13%;}
+  .contact1 label {font-size: 100%; font-weight: bolder;}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+  nav img {width: 30%; float: left;}
+  .jumbo {width: 100%; height: auto; margin-top: 100px;}
+  .jumbotext {font-size: 250%;}
+  .carousel {width: 100%;}
+  .imageslider {height: 350px;}
+  .ptext {width: 90%; font-size: 120%;}
+  .sign {float: right; clear: both; font-size: 120%; padding-right: 20%;}
+  .services1 h2 strong {font-size: 40px;}
+  .services1 {width: 90%; font-size: 120%; margin-top: 15%;}
+  .testimonials1 {width: 80%;}
+  .video {margin-left: 20%; width: 85%; height: 320px;}
+  .audio {margin-left: 13%;}
+  .testimg, .testimg1 {height: 100%; width: 100%; margin-left: 10%;}
+  .contact1 {margin-top: 18%;}
+  .contact1 label {font-size: 110%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+  nav img {width: 60%; float: left;}
+  .jumbo {width: 100%; height: auto; margin-top: 120px;}
+  .jumbotext {font-size: 300%;}
+  .carousel {width: 100%;}
+  .imageslider {height: 400px;}
+  .ptext {width: 90%; font-size: 140%;}
+  .sign {float: right; clear: both; font-size: 140%; padding-right: 20%;}
+  .services1 h2 strong {font-size: 50px;}
+  .services1 {width: 90%; font-size: 140%;}
+  .testimonials1 {width: 80%;}
+  .video {margin-left: 20%; width: 85%; height: 400px;}
+  .audio {margin-left: 13%;}
+  .testimg, .testimg1 {height: 100%; width: 100%; margin-left: 10%;}
+  .contact1 {margin-top: 22%;}
+  .contact1 label {font-size: 130%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+  nav img {width: 60%; float: left;}
+  .jumbo {width: 100%; height: auto; margin-top: 130px;}
+  .jumbotext {font-size: 350%;}
+  .carousel {width: 100%;}
+  .imageslider {height: 500px;}
+  .ptext {width: 90%; font-size: 150%;}
+  .sign {float: right; clear: both; font-size: 150%; padding-right: 20%;}
+  .services1 h2 strong {font-size: 50px;}
+  .services1 {width: 90%; font-size: 150%;}
+  .testimonials1 {width: 80%;}
+  .video {margin-left: 20%; width: 85%; height: 500px;}
+  .audio {margin-left: 13%;}
+  .testimg, .testimg1 {height: 100%; width: 100%; margin-left: 10%;}
+  .contact1 {margin-top: 17%;}
+  .contact1 label {font-size: 140%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+  nav img {width: 80%; float: left;}
+  .jumbo {width: 100%; height: auto; margin-top: 170px;}
+  .jumbotext {font-size: 400%;}
+  .carousel {width: 100%;}
+  .imageslider {height: 550px;}
+  .ptext {width: 90%; font-size: 180%;}
+  .sign {float: right; clear: both; font-size: 180%; padding-right: 20%;}
+  .services1 h2 strong {font-size: 50px;}
+  .services1 {width: 90%; font-size: 150%;}
+  .testimonials1 {width: 80%;}
+  .video {margin-left: 20%; width: 85%; height: 500px;}
+  .audio {margin-left: 13%;}
+  .testimg, .testimg1 {height: 100%; width: 100%; margin-left: 10%;}
+  .contact1 {margin-top: 13%;}
+  .contact1 label {font-size: 150%;}
+}

@@ -1,0 +1,12 @@
+Using one or more of the URLs listed below, or your own, modify your bmi.js
+file so that any error messages appear on screen for a total of 3 seconds-and-then-disappear-in-javascript
+and then "fade away".
+
+https://www.drupal.org/project/messagefx/issues/724180
+
+https://www.elated.com/articles/javascript-timers-with-settimeout-and-setinterval/
+
+https://stackoverflow.com/questions/37594636/how-to-display-message-for-3-seconds-in-javascript/37594696
+
+https://stackoverflow.com/questions/22655144/how-to-display-a-message-for-a-few-seconds-and-then-disappear-in-javascript
+

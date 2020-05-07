@@ -67,8 +67,8 @@ nav
 
 .main
 {
-  background: url('../images/coding.jpg');
-  height: 100%;
+  background: url('../images/codingHomePage.jpg');
+  height: 1000px;
   padding-bottom: 40px;
 }
 .mainhome
@@ -121,7 +121,7 @@ main p
 /* CONTACT Stuff --------------------------------------- */
 .contact
 {
-  background: url('../images/coding5.jpg');
+  background: black;
   margin-top: -50px;
 }
 
@@ -195,8 +195,8 @@ footer
   nav {width: 100%;}
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: -130px;}
-  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
-  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px; text-align: center;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center; color: rgb(255, 0, 0);}
   table {margin-top: 100px;}
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -208,7 +208,7 @@ footer
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: -65%;}
   .mainhome h1 {margin-top: 30px; margin-left: -170px;}
-  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -219,8 +219,8 @@ footer
   nav {width: 100%;}
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: -30%;}
-  .mainhome h1 {margin-top: 30px; margin-left: -170px;}
-  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  .mainhome h1 {margin-top: 30px; margin-left: -170px; text-align: center;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -232,7 +232,7 @@ footer
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: -10%;}
   .mainhome h1 {margin-top: 30px; margin-left: -170px;}
-  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  .mainhome p {margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -244,7 +244,7 @@ footer
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: 5%;}
   .mainhome h1 {margin-top: 95%; margin-left: -65%;}
-  .mainhome p {width: 130%; margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center;}
+  .mainhome p {width: 130%; margin-left: -170px; margin-bottom: 50px; margin-right: 15px; text-align: center; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -256,7 +256,7 @@ footer
   nav li a {margin-top: -30px;}
   .me {width: 200px; float: left; margin-left: -20%;}
   .mainhome h1 {margin-top: 40%; margin-left: -5%;}
-  .mainhome p {width: 75%; margin-top: -25%; margin-left: 20%; text-align: left;}
+  .mainhome p {width: 75%; margin-top: -25%; margin-left: 20%; text-align: left; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -268,7 +268,7 @@ footer
   nav li a {margin-top: -10px;}
   .me {width: 200px; float: left; margin-left: -15%;}
   .mainhome h1 {margin-top: 35%; margin-left: -4%;}
-  .mainhome p {width: 70%; margin-top: -20%; margin-left: 20%;}
+  .mainhome p {width: 70%; margin-top: -20%; margin-left: 120px; color: rgb(255, 0, 0);}
   
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
@@ -280,8 +280,7 @@ footer
   nav li a {margin-top: -10px;}
   .me {width: 200px; float: left; margin-left: -10%;}
   .mainhome h1 {margin-top: 30%; margin-left: -0%;}
-  .mainhome p {margin-top: -18%; margin-left: 23%; margin-right: 15px;}
-  
+  .mainhome p {margin-top: -18%; margin-left: 23%; margin-right: 15px; color: rgb(255, 0, 0);}
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 500px;}
   .contact aside h1, .contact aside p {margin-left: 10px; margin-bottom: 20px;}
@@ -292,7 +291,33 @@ footer
   nav li a {margin-top: -5%;}
   .me {height: 20%; width: 20%; margin-left: 5%; margin-top: 200px;}
   .mainhome h1 {margin-top: 20%; margin-left: 1%;}
-  .mainhome p {width: 50%; margin-top: -12%; margin-left: 30%; margin-right: 15px;}
+  .mainhome p {width: 50%; margin-top: -12%; margin-left: 30%; margin-right: 15px; color: rgb(255, 0, 0);}
+  table {margin-top: 5%;}
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 20%;}
+  .contact aside h1 {float: right; margin-top: 250px; margin-right: 100px;}
+  .contact aside p {float: right; margin-top: -440px; margin-right: -200px;}
+}
+@media only screen and (min-width: 1450px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -5%;}
+  .me {height: 20%; width: 20%; margin-left: 5%; margin-top: 200px;}
+  .mainhome h1 {margin-top: 20%; margin-left: 1%;}
+  .mainhome p {width: 50%; margin-top: -12%; margin-left: 30%; margin-right: 15px; color: rgb(255, 0, 0);}
+  table {margin-top: 5%;}
+  form {width: 90%; margin-top: 100px; margin-left: 40px;}
+  .contact aside h2 {margin-right: 20%;}
+  .contact aside h1 {float: right; margin-top: 0px; margin-right: 100px;}
+  .contact aside p {float: right; margin-top: -440px; margin-right: -200px;}
+}
+@media only screen and (min-width: 1700px)
+{
+  nav {width: 100%;}
+  nav li a {margin-top: -5%;}
+  .me {height: 20%; width: 20%; margin-left: 5%; margin-top: 200px;}
+  .mainhome h1 {margin-top: 17%; margin-left: 1%;}
+  .mainhome p {width: 50%; margin-top: -12%; margin-left: 29%; margin-right: 15px; color: rgb(255, 0, 0);}
   table {margin-top: 5%;}
   form {width: 90%; margin-top: 100px; margin-left: 40px;}
   .contact aside h2 {margin-right: 20%;}
